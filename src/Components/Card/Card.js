@@ -5,10 +5,10 @@ const arr=[ "January", "February", "March", "April", "May", "June",
 const month=arr[date.getMonth()]
 function Card(props){
     const {title,description}=props;
-    return <div className='card'>
-      <h1 className='card-title'>{title}</h1>
-      <p className='card-desription'>{description}</p>
-      <p className='card-footer'>Welcome to {month} {year}</p>
+    return <div className='mycard'>
+      <h1 className='mycard-title'>{title}</h1>
+      <p className='mycard-desription'>{description}</p>
+      <p className='mycard-footer'>Welcome to {month} {year}</p>
     </div>
   
 

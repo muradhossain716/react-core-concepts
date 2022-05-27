@@ -1,22 +1,21 @@
-.card{
+.mycard{
     background-color: black;
     color:white;
     width:300px;
     box-shadow: 5px 4px 5px rgb(192, 189, 189);
     
     }
-    .card-title{
+    .mycard-title{
         text-align: center;
         background-color: crimson;
         color:white;
         padding:1rem;
         
     }
-    .card-desription{
+    .mycard-desription{
         text-align: justify;
-    
     }
-    .card-footer{
+    .mycard-footer{
         background-color: crimson;
         color:white;
         text-align: center;

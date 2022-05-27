@@ -28,9 +28,9 @@ const Data=[
     return <div>
         {
             Data.map((el)=>{const {id,title,description}=el;
-            return <div key={id} className="card">
-                <h3 className="card-title">{title}</h3>
-                <p className="card-desription">{description}</p>
+            return <div key={id} className="mycard">
+                <h3 className="mycard-title">{title}</h3>
+                <p className="mycard-desription">{description}</p>
             </div>
             
             })

@@ -9,9 +9,9 @@ class Card2 extends Component{
     render(){
         return(
         <div>
-            <div className="card">
-                <h1 className="card-title">{this.props.name}</h1>
-                <p className="card-desription">{this.props.description}</p>
+            <div className="mycard">
+                <h1 className="mycard-title">{this.props.name}</h1>
+                <p className="mycard-desription">{this.props.description}</p>
                 </div>
 
                 <HowReactCreateElement />
