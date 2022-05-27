@@ -22,3 +22,8 @@
         text-align: center;
         padding:1rem
     }
+    .card-specifier{
+        background-color: rgb(109, 117, 231);
+        width:300px;
+        padding:1rem
+    }
