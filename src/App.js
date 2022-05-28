@@ -4,9 +4,10 @@ import CardData from "./data.json";
 import DataList from "./Components/uniqueList/list";
 import Card2 from "./Components/Card/Card2";
 import Card3 from "./Components/Card/Card3";
+import State from "./Components/State/State"
 
 function App(){
-    return(<div><p className="card-specifier">Card generated from Json file</p>
+    return(<div style={{margin:"5% 30% 0% 30%"}}><p className="card-specifier">Card generated from Json file</p>
         {
         CardData.map((el,i)=>{
             const {title,description}=el; 
@@ -17,6 +18,7 @@ function App(){
         <p className="card-specifier">Card generated from Class Component</p>
         <Card2  name="card2" description="This a new Card"/>
         <Card3 />
+        <State />
     </div>
         
     );
