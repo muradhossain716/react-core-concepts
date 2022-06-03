@@ -13,7 +13,7 @@ export default class USESTATE extends Component {
     })
   render() {
     return (
-      <div Onclick>{this.state.value}</div>
+      <div onClick={this.handel}>{this.state.value}</div>
     )
   }
 }

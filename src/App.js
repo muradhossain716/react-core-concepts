@@ -7,10 +7,13 @@ import Card3 from "./Components/Card/Card3";
 import State from "./Components/State/State";
 import USESTATE from "./Components/State/UseState";
 import USESTATE2 from "./Components/State/UseState2";
+import FORM2 from "./Components/Form/Form2";
+// import FORM from "./Components/Form/FORM";
 
 
 function App(){
-    return(<div style={{margin:"5% 30% 0% 30%"}}><p className="card-specifier">Card generated from Json file</p>
+    return(<div style={{margin:"5% 30% 0% 30%"}}>
+        <p className="card-specifier">Card generated from Json file</p>
         {
         CardData.map((el,i)=>{
             const {title,description}=el; 
@@ -24,6 +27,7 @@ function App(){
         <State />
         <USESTATE />
         <USESTATE2 />
+        <FORM2 />
     </div>
         
     );
